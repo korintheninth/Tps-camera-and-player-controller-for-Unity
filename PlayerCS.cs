@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCS : MonoBehaviour
 {
     public Rigidbody m_rigidbody;
-    public CapsuleCollider m_capsulecollider;
     
     public float DashForce = 300.0f;
     public float WSpeed = 100.0f;
@@ -29,7 +28,6 @@ public class PlayerCS : MonoBehaviour
     void Start()
     {
          m_rigidbody = GetComponent<Rigidbody>();
-         m_capsulecollider = GetComponent<CapsuleCollider>();
         
     }
 
